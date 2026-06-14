@@ -1,0 +1,34 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Virtual environments
+.venv/
+venv/
+env/
+
+# Test / coverage
+.pytest_cache/
+.coverage
+htmlcov/
+
+# Build artifacts
+/build/
+/dist/
+*.egg-info/
+*.egg
+.eggs/
+
+# IDE/config
+.vscode/
+.idea/
+*.log
+
+# PyInstaller
+ebookmetafile_launcher.py
+ebookmetafile.spec
+
+# claude
+.claude/
